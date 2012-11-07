@@ -1,0 +1,6 @@
+This is a simple test that is suppose to settle the discussion about
+whether using properties or direct variables in ObjectiveC makes sense.
+
+My take on it, it makes sense to use them directly in a very narrow
+amount of cases. So unless you need to, use properties.
+
