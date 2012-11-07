@@ -19,6 +19,7 @@
 		27D3ABAF164A9EEC00302AD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D3ABAE164A9EEC00302AD7 /* ViewController.m */; };
 		27D3ABB2164A9EEC00302AD7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D3ABB0164A9EEC00302AD7 /* ViewController_iPhone.xib */; };
 		27D3ABB5164A9EEC00302AD7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27D3ABB3164A9EEC00302AD7 /* ViewController_iPad.xib */; };
+		27D3ABBC164AA6EC00302AD7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D3ABBB164AA6EC00302AD7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		27D3ABAE164A9EEC00302AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		27D3ABB1164A9EEC00302AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		27D3ABB4164A9EEC00302AD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		27D3ABBB164AA6EC00302AD7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D3ABBC164AA6EC00302AD7 /* QuartzCore.framework in Frameworks */,
 				27D3AB96164A9EEC00302AD7 /* UIKit.framework in Frameworks */,
 				27D3AB98164A9EEC00302AD7 /* Foundation.framework in Frameworks */,
 				27D3AB9A164A9EEC00302AD7 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		27D3AB94164A9EEC00302AD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27D3ABBB164AA6EC00302AD7 /* QuartzCore.framework */,
 				27D3AB95164A9EEC00302AD7 /* UIKit.framework */,
 				27D3AB97164A9EEC00302AD7 /* Foundation.framework */,
 				27D3AB99164A9EEC00302AD7 /* CoreGraphics.framework */,
@@ -279,6 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PropertyTest/PropertyTest-Prefix.pch";
 				INFOPLIST_FILE = "PropertyTest/PropertyTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PropertyTest/PropertyTest-Prefix.pch";
 				INFOPLIST_FILE = "PropertyTest/PropertyTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
