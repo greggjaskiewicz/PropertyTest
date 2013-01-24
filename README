@@ -1,6 +1,7 @@
-This is a simple test that is suppose to settle the discussion about
-whether using properties or direct variables in ObjectiveC makes sense.
+This is a simple test that is suppose to settle the arguments about
+using properties vs direct variables in ObjectiveC.
 
-My take on it, it makes sense to use them directly in a very narrow
-amount of cases. So unless you need to, use properties.
+My take on it is: use properties, unless you really need direct quick access to variable. 
+And if you do, think about writing that part of code in C or C++ instead. Otherwise, the code is just going to be one big mess. 
+
 
